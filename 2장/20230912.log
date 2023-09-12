@@ -1,0 +1,73 @@
+ 안녕하세요
+alert("안녕하세요")
+undefined
+a=10
+10
+alert(a)
+undefined
+confirm("프로그램을 종료하겠습니까?")
+true
+prompt("이름을 입력하세요.")
+'호호호호호홍'
+prompt("이름을 입력하세요.")
+'장소윤'
+prompt("종료하시겠습니까?(예/아니요)", "예")
+'예'
+name = 장소윤
+VM738:1 Uncaught ReferenceError: 장소윤 is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM738:1
+name = "장소윤"
+'장소윤'
+console.log(name + "님 환영합니다")
+VM909:1 장소윤님 환영합니다
+undefined
+document.write("제 이름은 " + name + "입니다.")
+undefined
+let result
+undefined
+result = 10
+10
+result  = 20
+20
+const number = 10
+undefined
+number
+10
+number = 20
+VM1255:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:8
+(anonymous) @ VM1255:1
+let age = 21
+undefined
+console.log(name + "님 나이는" + age + "세 입니다.")
+VM1492:1 장소윤님 나이는21세 입니다.
+undefined
+console.log(`${name}님 나이는 ${age}세 입니다.`)
+VM1599:1 장소윤님 나이는 21세 입니다.
+undefined
+let student = {
+    major : "컴퓨터공학부",
+    idNum : 22295031,
+    name : "장소윤"
+}
+undefined
+student
+{major: '컴퓨터공학부', idNum: 22295031, name: '장소윤'}
+student.n
+undefined
+student.name
+'장소윤'
+student["major"]
+'컴퓨터공학부'
+let id = Symbol()
+undefined
+const member = {
+    name : "장소윤",
+    [id] : 0642
+}
+undefined
+member
+{name: '장소윤', Symbol(): 418}
+member[id]
+418
